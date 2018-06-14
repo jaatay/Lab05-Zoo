@@ -1,8 +1,11 @@
 ﻿using System;
 
-public class Class1
+namespace Lab05Zoo
 {
-	public Class1()
+	public abstract class Mammal : LandAnimalWithLegs
 	{
+		public virtual bool NotExtinctDontCare { get; set; } = true;
+
+		public virtual int LitersOfGrassEaten { get; set; } = 5;
 	}
 }

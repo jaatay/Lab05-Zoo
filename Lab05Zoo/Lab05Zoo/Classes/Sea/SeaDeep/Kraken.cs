@@ -1,8 +1,14 @@
 ﻿using System;
 
-public class Class1
+namespace Lab05Zoo
 {
-	public Class1()
+	public class Kraken : DeepSeaAnimal
 	{
+		public override string Diet { get; set; } = "Shrimp and volanic rock";
+
+		public override string IntroSound()
+		{
+			return "MooooooInTheWater";
+		}
 	}
 }

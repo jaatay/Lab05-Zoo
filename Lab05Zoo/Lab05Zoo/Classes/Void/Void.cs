@@ -1,8 +1,9 @@
 ﻿using System;
 
-public class VoidAnimal
+namespace Lab05Zoo
 {
-	public Class1()
+	public abstract class VoidAnimal : Animal
 	{
+		public virtual bool StarsInMovies { get; set; } = true;
 	}
 }

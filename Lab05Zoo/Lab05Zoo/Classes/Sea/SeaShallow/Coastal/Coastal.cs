@@ -1,8 +1,11 @@
 ﻿using System;
 
-public class Class1
+namespace Lab05Zoo
 {
-	public Class1()
+	public abstract class CoastalSeaAnimal : ShallowSeaAnimal
 	{
+		public virtual bool CloseToShore { get; set; } = true;
+		public abstract string CanDoMath();
+		
 	}
 }

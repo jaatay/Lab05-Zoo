@@ -1,8 +1,10 @@
 ﻿using System;
 
-public class LandAnimal
-{
-	public Class1()
+namespace Lab05Zoo {
+	public abstract class LandAnimal : Animal
 	{
+		
+		public bool LivesOnLand { get; set; } = true;
 	}
+
 }

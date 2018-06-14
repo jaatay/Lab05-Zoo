@@ -1,8 +1,9 @@
 ﻿using System;
 
-public class Class1
+namespace Lab05Zoo
 {
-	public Class1()
+	public abstract class VoidUndeadAnimal : VoidAnimal
 	{
+		public virtual string SoleMotivation { get; set; } = "Eat stuff.";
 	}
 }

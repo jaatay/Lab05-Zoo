@@ -1,8 +1,10 @@
 ﻿using System;
 
-public class Class1
+namespace Lab05Zoo
 {
-	public Class1()
+	public abstract class LandAnimalWithLegs : LandAnimal
 	{
+		public override string MethodOfMovement { get; set; } = "Legs 'n stuff.";
+
 	}
 }

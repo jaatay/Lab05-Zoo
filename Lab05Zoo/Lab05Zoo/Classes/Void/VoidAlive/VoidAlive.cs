@@ -1,8 +1,10 @@
 ﻿using System;
 
-public class Class1
+namespace Lab05Zoo
 {
-	public Class1()
+	public abstract class VoidLivingAnimal : VoidAnimal
 	{
+		public abstract bool HasConsciousThought();
+		public virtual int LestatFactor { get; set; } = 5;
 	}
 }
