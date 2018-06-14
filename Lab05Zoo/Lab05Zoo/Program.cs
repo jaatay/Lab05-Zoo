@@ -14,10 +14,12 @@ namespace Lab05Zoo
 		static public void ReleaseTheKraken()
 		{
 			Kraken myAnimal = new Kraken();
+
 			int krakenDepth = myAnimal.Depth;
-			string krakenDiet = myAnimal.Diet;
-			string krakenSound = myAnimal.IntroSound();
-			Console.WriteLine(krakenDepth.ToString(), krakenDiet, krakenSound);
+			
+			Console.WriteLine(myAnimal.IntroSound());
+			Console.WriteLine(myAnimal.Diet);
+			Console.WriteLine(krakenDepth.ToString());
 		}
 
     }
