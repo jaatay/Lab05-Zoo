@@ -8,5 +8,7 @@ namespace Lab05Zoo
         {
             Console.WriteLine("Hello World!");
         }
+
+		Animal myAnimal = new Animal();
     }
 }
