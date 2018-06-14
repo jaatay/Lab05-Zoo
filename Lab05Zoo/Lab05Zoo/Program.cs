@@ -6,11 +6,13 @@ namespace Lab05Zoo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-			Console.WriteLine();
+            
 			ReleaseTheKraken();
         }
 
+		/// <summary>
+		/// method which tests the instantiation of an animal object
+		/// </summary>
 		static public void ReleaseTheKraken()
 		{
 			Kraken myAnimal = new Kraken();
