@@ -1,8 +1,9 @@
 ﻿using System;
 
-public class Prey
+namespace Lab05Zoo
 {
-	public Class1()
+	interface IRunFromPredators
 	{
+		string TheFirstFiveSeconds(string input);
 	}
 }

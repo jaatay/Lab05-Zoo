@@ -1,8 +1,10 @@
 ﻿using System;
 
-public class Class1
+namespace Lab05Zoo
 {
-	public Class1()
+	interface IEatPrey
 	{
+		bool LivingThingsAreTasty { get; set; }
+
 	}
 }

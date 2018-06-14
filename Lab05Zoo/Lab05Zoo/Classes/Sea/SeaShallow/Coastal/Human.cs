@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Lab05Zoo {
-public class Human : CoastalSeaAnimal
+public class Human : CoastalSeaAnimal, IRunFromPredators
 {
 
 		public override string Diet { get; set; } = "Cheesy Poofs";
@@ -16,6 +16,11 @@ public class Human : CoastalSeaAnimal
 		public override string IntroSound()
 		{
 			return "Greetings, I am a mortal.";
+		}
+
+		public string TheFirstFiveSeconds(string input)
+		{
+			return input;
 		}
 	}
 }
