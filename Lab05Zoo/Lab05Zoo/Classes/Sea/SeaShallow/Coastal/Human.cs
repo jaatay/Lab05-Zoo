@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Lab05Zoo {
-public class Human : CoastalSeaAnimal, IRunFromPredators
+public class Human : CoastalSeaAnimal, IRunFromPredators, IEatPrey
 {
 		/// <summary>
 		/// string override of diet property
@@ -12,6 +12,7 @@ public class Human : CoastalSeaAnimal, IRunFromPredators
 		/// string override of depth property
 		/// </summary>
 		public override int Depth { get => base.Depth; set => base.Depth = 5; }
+		public bool LivingThingsAreTasty { get; set; } = true;
 
 		/// <summary>
 		/// string of inhereted math method

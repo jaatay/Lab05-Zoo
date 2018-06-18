@@ -4,7 +4,10 @@
 This program is a digital zoo. Using derived classes and properties, animals are created. At the highest level are abstract classes, deriving down to each subsequent type of animal. There are further abstract classes for 3 categories of animal: land, sea, and void. Each animal class has abstract subclasses, along with a mix of abstract, virtual, and concrete properties. At the end level are concrete classes which allow each type of animal to be instantiated as objects. 
 
 ## Example
-![Derived class screenshot](Zoo.jpg)
+![Derived classes overview](ZooMain.jpg)
+![Derived classes Sea](ZooSea.jpg)
+![Derived classes Land](ZooLand.jpg)
+![Derived classes Void](ZooVoid.jpg)
 
 ## How to use
 This program requires Visual Studio. Once the repo has been cloned to the user's local machine, they simply need to navigate to the solution folder, and open the solution using Visual Studio. Then, run the program.cs file. After that, follow the prompts. The test file can be opened via the test solution also located in the project directory.
